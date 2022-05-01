@@ -10,6 +10,12 @@ import { DetailsComponent } from './details/details.component';
 import { BlogComponent } from './blog/blog.component';
 import { AboutComponent } from './about/about.component';
 import { FilmsComponent } from './films/films.component';
+import { HomeComponent } from './home/home.component';
+import { ContentComponent } from './content/content.component';
+import { PremiereComponent } from './premiere/premiere.component';
+import { PartnersComponent } from './partners/partners.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +26,13 @@ import { FilmsComponent } from './films/films.component';
     DetailsComponent,
     BlogComponent,
     AboutComponent,
-    FilmsComponent
+    FilmsComponent,
+    HomeComponent,
+    ContentComponent,
+    PremiereComponent,
+    PartnersComponent,
+    PricingComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
